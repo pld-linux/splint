@@ -23,8 +23,8 @@ checks than can be done by any standard lint.
 
 %description -l pl
 Splint jest narzêdziem do statycznego sprawdzania programów w C w
-zakresie naruszenia bezpieczeñstwa i popularnych b³edów
-programistycznych. Z ma³ym wysi³kiem SPlint mo¿e byæ u¿ywany jako
+zakresie naruszenia bezpieczeñstwa i popularnych b³êdów
+programistycznych. Z ma³ym wysi³kiem Splint mo¿e byæ u¿ywany jako
 lepszy lint(1). Przy dodatkowym wk³adzie pracy w dodawanie komentarzy
 do programów Splint mo¿e wykonaæ silniejsz± kontrolê ni¿ standardowy
 lint.
