@@ -2,12 +2,12 @@
 Summary:	A tool for statically checking C programs
 Summary(pl):	Narzêdzie do statycznego sprawdzania programów w C
 Name:		splint
-Version:	3.0.1.6
+Version:	3.1.1
 Release:	1
 License:	GPL
 Group:		Development/Tools
 Source0:	http://www.splint.org/downloads/%{name}-%{version}.src.tgz
-# Source0-md5:	3b19e62d5b3a8883ac356dff3615234c
+# Source0-md5:	91635d98644312302f6f16abe73c2474
 URL:		http://www.splint.org/
 Obsoletes:	lclint
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
