@@ -6,7 +6,7 @@ Version:	3.0.1.5
 Release:	1
 License:	GPL
 Group:		Development/Tools
-Source0:	%{name}-%{version}.src.tgz
+Source0:	http://www.splint.org/downloads/%{name}-%{version}.src.tgz
 URL:		http://www.splint.org
 Obsoletes:	lclint
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
