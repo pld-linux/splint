@@ -2,7 +2,7 @@
 Summary:	A tool for statically checking C programs
 Summary(pl):	Narzêdzie do statycznego sprawdzania programów w C
 Name:		splint
-Version:	3.0.1.5
+Version:	3.0.1.6
 Release:	1
 License:	GPL
 Group:		Development/Tools
@@ -41,14 +41,12 @@ install -d $RPM_BUILD_ROOT%{_mandir}/man1
 	DESTDIR=$RPM_BUILD_ROOT
 install doc/splint.1 $RPM_BUILD_ROOT%{_mandir}/man1
 
-gzip -9nf README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README
 %attr(755,root,root) %{_bindir}/splint
 %{_datadir}/splint
 %{_mandir}/man*/*
