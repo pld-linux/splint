@@ -7,7 +7,7 @@ Release:	1
 License:	GPL
 Group:		Development/Tools
 Source0:	http://www.splint.org/downloads/%{name}-%{version}.src.tgz
-URL:		http://www.splint.org
+URL:		http://www.splint.org/
 Obsoletes:	lclint
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -35,8 +35,8 @@ lint.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT%{_mandir}/man1
+
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 install doc/splint.1 $RPM_BUILD_ROOT%{_mandir}/man1
