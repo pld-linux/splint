@@ -6,9 +6,6 @@ Version:	3.0.1.5
 Release:	1
 License:	GPL
 Group:		Development/Tools
-Group(de):	Entwicklung/Werkzeuge
-Group(fr):	Development/Outils
-Group(pl):	Programowanie/Narzêdzia
 Source0:	%{name}-%{version}.src.tgz
 URL:		http://www.splint.org
 Obsoletes:	lclint
