@@ -1,4 +1,4 @@
-%include        /usr/lib/rpm/macros.perl
+%include	/usr/lib/rpm/macros.perl
 Summary:	A tool for statically checking C programs
 Summary(pl):	Narzêdzie do statycznego sprawdzania programów w C
 Name:		splint
