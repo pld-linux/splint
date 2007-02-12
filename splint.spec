@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	A tool for statically checking C programs
-Summary(pl):	Narzêdzie do statycznego sprawdzania programów w C
+Summary(pl.UTF-8):   NarzÄ™dzie do statycznego sprawdzania programÃ³w w C
 Name:		splint
 Version:	3.1.1
 Release:	2
@@ -21,12 +21,12 @@ Splint can be used as a better lint(1). If additional effort is
 invested adding annotations to programs, Splint can perform stronger
 checks than can be done by any standard lint.
 
-%description -l pl
-Splint jest narzêdziem do statycznego sprawdzania programów w C w
-zakresie naruszenia bezpieczeñstwa i popularnych b³êdów
-programistycznych. Z ma³ym wysi³kiem Splint mo¿e byæ u¿ywany jako
-lepszy lint(1). Przy dodatkowym wk³adzie pracy w dodawanie komentarzy
-do programów Splint mo¿e wykonaæ silniejsz± kontrolê ni¿ standardowy
+%description -l pl.UTF-8
+Splint jest narzÄ™dziem do statycznego sprawdzania programÃ³w w C w
+zakresie naruszenia bezpieczeÅ„stwa i popularnych bÅ‚Ä™dÃ³w
+programistycznych. Z maÅ‚ym wysiÅ‚kiem Splint moÅ¼e byÄ‡ uÅ¼ywany jako
+lepszy lint(1). Przy dodatkowym wkÅ‚adzie pracy w dodawanie komentarzy
+do programÃ³w Splint moÅ¼e wykonaÄ‡ silniejszÄ… kontrolÄ™ niÅ¼ standardowy
 lint.
 
 %prep
